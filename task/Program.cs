@@ -11,7 +11,7 @@
 Console.Clear();
 
 Console.WriteLine("Введите массив строк через пробел");
-string inputValue = Console.ReadLine();
+string inputValue = Console.ReadLine()!;
 string[] firstArray;
 
 firstArray = inputValue.Split(' ');
